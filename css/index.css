@@ -1,0 +1,27 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+body{
+    overflow: hidden;
+}
+#img-nav {
+    width: 720px;
+    height: 480px;
+    position: relative;
+    margin: 70px auto;
+    /* background-color: purple; */
+}
+#img-nav > div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+#img-nav > div > div {
+    position: absolute;
+    transform: preserve-3d;
+}
